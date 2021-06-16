@@ -1,0 +1,11 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "ananke"
+
+[deployment]
+
+
+[[deployment.targets]]
+name = "awsdeployment"
+URL = "s3://testhugostaticwebsite?region=ap-southeast-1"
